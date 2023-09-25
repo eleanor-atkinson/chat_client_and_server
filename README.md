@@ -8,7 +8,7 @@ The goal of this project for me was to learn more about Computer Networks throug
 
 ## **About**
 
-This is a text-based chat client and server that connects clients that allows for the exchange of messages between different computers. It is built on top of TCP and uses its own application layer protocol. The client can ask the server to perform actions by sending predefined types of messages. For example, the client can ask the server to forward a message to another user’s client by sending the string <html> <body> <p> SEND username [insert your message] here\n </p> </body> </html> to the server, where “username” is the user to whom they want to send the message. You  will then be notified whether the message was sent successfully. The server can host at least 64 simultaneous clients. 
+This is a text-based chat client and server that connects clients that allows for the exchange of messages between different computers. It is built on top of TCP and uses its own application layer protocol. The client can ask the server to perform actions by sending predefined types of messages. For example, the client can ask the server to forward a message to another user’s client by sending the string `SEND username [insert your message] here\n` to the server, where “username” is the user to whom they want to send the message. You  will then be notified whether the message was sent successfully. The server can host at least 64 simultaneous clients. 
 
 ## **Technicalities**
 
